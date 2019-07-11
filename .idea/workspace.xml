@@ -2,56 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f9de953-2b49-49df-bf2d-6c2ec2247c26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/Calculate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowPerformance.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionConstants.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/entities/BusinessObjects.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/fundamentals/FundamentalsGrowCheck.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycompare/Comparator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidatorTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CompanyCalculation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CompanyCalculation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowConstants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowResults.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/com/calc/domain/companycalculation/cashflow/CashflowPerformanceTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/companycalculation$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/companycalculation$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/companycalculation$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/companycalculation$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/companycalculation_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/companycalculation_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/companycalculation_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/companycalculation_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-companycalculation_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/Calculate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/Calculate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowPerformance.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowPerformance.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionConstants.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/CriticalConditionsConstants.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/CriticalconditionsResults.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/entities/BusinessObjects.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/entities/BusinessObjects.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/fundamentals/FundamentalsGrowCheck.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/fundamentals/FundamentalsGrowCheck.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidatorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidatorTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/Calculate$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/Calculate$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/Calculate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/cashflow/CashflowPerformance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/cashflow/CashflowPerformance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/ConditionConstants$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/ConditionConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/ConditionValidator$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/ConditionValidator$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/ConditionValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/ConditionValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates$BARELY_NOT_PASS$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates$CRITICALLY_NOT_PASS$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates$ConditionState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates$GREAT_PASS$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates$NOT_PASS$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates$PASS$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates$PROPERLY_PASS$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates$VERY_WELL_PASS$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/entities/Company$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/entities/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/fundamentals/FundamentalsGrowCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/com/calc/domain/companycalculation/fundamentals/FundamentalsGrowCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/calc/domain/companycalculation/criticalconditions/ConditionValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/com/calc/domain/companycalculation/criticalconditions/ConditionValidatorTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,61 +53,71 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4535573">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidator.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#63#146#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/Calculate.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="134">
-                  <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#44#75#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionConstants.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidator.scala">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="51" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="51" />
-                  <folding>
-                    <element signature="e#63#146#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/calc/domain/companycalculation/cashflow/CashflowPerformanceTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="21" column="83" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+              <folding>
+                <element signature="e#53#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowResults.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/Calculate.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+              <folding>
+                <element signature="e#44#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowPerformance.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="62" column="77" selection-start-line="62" selection-start-column="77" selection-end-line="62" selection-end-column="77" />
+              <folding>
+                <element signature="e#53#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/collection/TraversableOnce.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="210" column="6" selection-start-line="210" selection-start-column="6" selection-end-line="210" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowConstants.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -164,26 +158,36 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/criticalconditions/ConditionValidator.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/criticalconditions/RatioConditionStates.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycompare/Comparator.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionConstants.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidatorTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/entities/BusinessObjects.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidator.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/fundamentals/FundamentalsGrowCheck.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionConstants.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/RatiosConstants.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/entities/BusinessObjects.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/RatioConstants.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/CriticalConditionsConstants.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/CriticalconditionsResults.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowResults.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowConstants.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowPerformance.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/calc/domain/companycalculation/cashflow/CashflowPerformanceTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/Calculate.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="816" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,36 +239,6 @@
               <item name="CompanyCalculation" type="b2602c69:ProjectViewProjectNode" />
               <item name="CompanyCalculation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="companycalculation" type="462c0819:PsiDirectoryNode" />
-              <item name="criticalconditions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompanyCalculation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompanyCalculation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="companycalculation" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompanyCalculation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompanyCalculation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="companycalculation" type="462c0819:PsiDirectoryNode" />
-              <item name="fundamentals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompanyCalculation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompanyCalculation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,6 +254,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="companycalculation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanyCalculation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanyCalculation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="companycalculation" type="462c0819:PsiDirectoryNode" />
+              <item name="cashflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanyCalculation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanyCalculation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="companycalculation" type="462c0819:PsiDirectoryNode" />
               <item name="criticalconditions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -287,16 +279,16 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559395349307" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562871571147" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.calc.domain.companycalculation.cashflow" />
       <recent name="com.calc.domain.companycalculation.criticalconditions" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -318,23 +310,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Calculate">
-    <configuration name="Calculate" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.calc.domain.companycalculation.Calculate" />
+  <component name="RunManager" selected="ScalaTest.CashflowPerformanceTest">
+    <configuration name="CashflowPerformanceTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="CompanyCalculation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.calc.domain.companycalculation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConditionValidatorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="CompanyCalculation" />
-      <setting name="path" value="com.calc.domain.companycalculation.criticalconditions.ConditionValidatorTest" />
+      <setting name="path" value="com.calc.domain.companycalculation.cashflow.CashflowPerformanceTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -344,16 +323,90 @@
       <setting name="useUiWithSbt" value="false" />
       <envs />
       <setting name="testKind" value="Class" />
-      <setting name="path" value="com.calc.domain.companycalculation.criticalconditions.ConditionValidatorTest" />
+      <setting name="path" value="com.calc.domain.companycalculation.cashflow.CashflowPerformanceTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithFallingTrendAndProperValueState" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="CompanyCalculation" />
+      <setting name="path" value="com.calc.domain.companycalculation.cashflow.CashflowPerformanceTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.calc.domain.companycalculation.cashflow.CashflowPerformanceTest" />
+      <setting name="testName" value="checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithFallingTrendAndProperValueState" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithGrowingTrendAndNotProperValueState" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="CompanyCalculation" />
+      <setting name="path" value="com.calc.domain.companycalculation.cashflow.CashflowPerformanceTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.calc.domain.companycalculation.cashflow.CashflowPerformanceTest" />
+      <setting name="testName" value="checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithGrowingTrendAndNotProperValueState" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithStableTrendAndProperValueState" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="CompanyCalculation" />
+      <setting name="path" value="com.calc.domain.companycalculation.cashflow.CashflowPerformanceTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.calc.domain.companycalculation.cashflow.CashflowPerformanceTest" />
+      <setting name="testName" value="checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithStableTrendAndProperValueState" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForOperatingActivitiesWithStableTrendAndNotProperValueState" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="CompanyCalculation" />
+      <setting name="path" value="com.calc.domain.companycalculation.cashflow.CashflowPerformanceTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.calc.domain.companycalculation.cashflow.CashflowPerformanceTest" />
+      <setting name="testName" value="checkParameterShouldReturnAnalysedResultsForOperatingActivitiesWithStableTrendAndNotProperValueState" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calculate" />
-        <item itemvalue="ScalaTest.ConditionValidatorTest" />
-        <item itemvalue="ScalaTest.ConditionValidatorTest" />
+        <item itemvalue="ScalaTest.CashflowPerformanceTest" />
+        <item itemvalue="ScalaTest.CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithGrowingTrendAndNotProperValueState" />
+        <item itemvalue="ScalaTest.CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithStableTrendAndProperValueState" />
+        <item itemvalue="ScalaTest.CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithFallingTrendAndProperValueState" />
+        <item itemvalue="ScalaTest.CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForOperatingActivitiesWithStableTrendAndNotProperValueState" />
       </list>
     </recent_temporary>
   </component>
@@ -409,48 +462,66 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConditionValidatorTest - 2019.05.25 at 14h 01m 23s.xml">
-      <configuration name="ConditionValidatorTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CashflowPerformanceTest_checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithFallingTrendAndProperValueState - 2019.07.07 at 13h 18m 18s.xml">
+      <configuration name="CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithFallingTrendAndProperValueState" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ConditionValidatorTest - 2019.05.25 at 14h 30m 08s.xml">
-      <configuration name="ConditionValidatorTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CashflowPerformanceTest_checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithFallingTrendAndProperValueState - 2019.07.07 at 13h 18m 34s.xml">
+      <configuration name="CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithFallingTrendAndProperValueState" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ConditionValidatorTest - 2019.05.25 at 14h 30m 17s.xml">
-      <configuration name="ConditionValidatorTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CashflowPerformanceTest_checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithFallingTrendAndProperValueState - 2019.07.07 at 13h 18m 58s.xml">
+      <configuration name="CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithFallingTrendAndProperValueState" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ConditionValidatorTest - 2019.06.01 at 13h 53m 48s.xml">
-      <configuration name="ConditionValidatorTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="CashflowPerformanceTest_checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithStableTrendAndProperValueState - 2019.07.07 at 13h 20m 16s.xml">
+      <configuration name="CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithStableTrendAndProperValueState" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CashflowPerformanceTest_checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithGrowingTrendAndNotProperValueState - 2019.07.07 at 13h 20m 58s.xml">
+      <configuration name="CashflowPerformanceTest.checkParameterShouldReturnAnalysedResultsForInvestingActivitiesWithGrowingTrendAndNotProperValueState" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CashflowPerformanceTest - 2019.07.07 at 13h 21m 07s.xml">
+      <configuration name="CashflowPerformanceTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CashflowPerformanceTest - 2019.07.07 at 13h 23m 14s.xml">
+      <configuration name="CashflowPerformanceTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CashflowPerformanceTest - 2019.07.07 at 13h 24m 27s.xml">
+      <configuration name="CashflowPerformanceTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CashflowPerformanceTest - 2019.07.07 at 13h 25m 34s.xml">
+      <configuration name="CashflowPerformanceTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CashflowPerformanceTest - 2019.07.07 at 13h 27m 19s.xml">
+      <configuration name="CashflowPerformanceTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="816" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="DB Browser" />
-      <window_info id="Project Explorer" />
-      <window_info id="Job Explorer" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2761087" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.31330472" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Console" />
-      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info id="DB Browser" order="7" />
+      <window_info id="Project Explorer" order="8" />
+      <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="0" />
-      <window_info active="true" anchor="bottom" id="Messages" order="1" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32777777" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.36049724" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.29444444" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32872927" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
+      <window_info anchor="bottom" id="Console" order="14" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="sbt" order="2" />
@@ -503,61 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowPerformance.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/fundamentals/FundamentalsGrowCheck.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidatorTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#63#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/entities/BusinessObjects.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="e#63#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/RatioConditionStates.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionConstants.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/logging/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -565,12 +581,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/collection/IterableLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="204" column="6" selection-start-line="204" selection-start-column="6" selection-end-line="204" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#63#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/CriticalConditionsConstants.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/criticalconditions/CriticalconditionsResults.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/fundamentals/FundamentalsGrowCheck.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/entities/BusinessObjects.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="e#53#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/calc/domain/companycalculation/criticalconditions/ConditionValidatorTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#63#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/collection/TraversableOnce.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="210" column="6" selection-start-line="210" selection-start-column="6" selection-end-line="210" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowResults.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowPerformance.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="62" column="77" selection-start-line="62" selection-start-column="77" selection-end-line="62" selection-end-column="77" />
+          <folding>
+            <element signature="e#53#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/cashflow/CashflowConstants.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/calc/domain/companycalculation/cashflow/CashflowPerformanceTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="21" column="83" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+          <folding>
+            <element signature="e#53#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/calc/domain/companycalculation/Calculate.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="276">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
           <folding>
-            <element signature="e#44#75#0" expanded="true" />
+            <element signature="e#44#65#0" expanded="true" />
           </folding>
         </state>
       </provider>

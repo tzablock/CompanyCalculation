@@ -2,8 +2,8 @@ package com.calc.domain.companycalculation.criticalconditions
 
 import org.scalatest.FunSuite
 import com.calc.domain.companycalculation.criticalconditions.ConditionValidator._
-import com.calc.domain.companycalculation.criticalconditions.ConditionConstants._
-import com.calc.domain.companycalculation.criticalconditions.RatioConditionStates._
+import com.calc.domain.companycalculation.criticalconditions.CriticalConditionsConstants._
+import com.calc.domain.companycalculation.criticalconditions.CriticalconditionsResults._
 
 class ConditionValidatorTest extends FunSuite {
   test("Test if proper state is returned for pe ratio values"){

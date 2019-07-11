@@ -1,7 +1,7 @@
 package com.calc.domain.companycalculation.criticalconditions
 
-import com.calc.domain.companycalculation.criticalconditions.RatioConditionStates._
-import com.calc.domain.companycalculation.criticalconditions.ConditionConstants._
+import com.calc.domain.companycalculation.criticalconditions.CriticalconditionsResults._
+import com.calc.domain.companycalculation.criticalconditions.CriticalConditionsConstants._
 
 object ConditionValidator {
 //  P/E ratio <= 15 (Market Price - price of stock/Earnings - how much company earn per share) (the lower the best)
